@@ -1,0 +1,66 @@
+/*
+
+Use https://transfonter.org/ for a true-man method @font-face
+
+*/
+@font-face {
+    font-family: 'Circe';
+    src: local('Circe Light'), local('Circe-Light'),
+        url('../fonts/Circe-Light.woff2') format('woff2'),
+        url('../fonts/Circe-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Circe';
+    src: local('Circe'), local('Circe-Regular'),
+        url('../fonts/Circe-Regular.woff2') format('woff2'),
+        url('../fonts/Circe-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: local('Circe Bold'), local('Circe-Bold'),
+        url('../fonts/Circe-Bold.woff2') format('woff2'),
+        url('../fonts/Circe-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pari-Match';
+    src: local('Pari-Match Bold'), local('Pari-Match-Bold'),
+        url('../fonts/Pari-Match-Bold.woff2') format('woff2'),
+        url('../fonts/Pari-Match-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pari-Match';
+    src: local('Pari-Match Medium'), local('Pari-Match-Medium'),
+        url('../fonts/Pari-Match-Medium.woff2') format('woff2'),
+        url('../fonts/Pari-Match-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pari-Match';
+    src: local('Pari-Match Light'), local('Pari-Match-Light'),
+        url('../fonts/Pari-Match-Light.woff2') format('woff2'),
+        url('../fonts/Pari-Match-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+

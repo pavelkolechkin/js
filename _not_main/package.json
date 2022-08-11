@@ -1,0 +1,33 @@
+{
+  "name": "start-pack",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "axis": "^1.0.0",
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-eslint": "^6.0.0",
+    "gulp-pipe": "^1.0.4",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.6.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "sass": "^1.52.3"
+  },
+  "scripts": {
+    "start": "gulp",
+    "lint": "eslint src/"
+  }
+}
